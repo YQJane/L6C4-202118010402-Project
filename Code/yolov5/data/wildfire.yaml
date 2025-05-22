@@ -1,0 +1,17 @@
+path: D:/Desktop/Code/yolov5/DataSet/
+
+train: images/train/
+val: images/val/
+test: D:/Desktop/Code/yolov5/data/test
+
+# number of classes
+nc: 1
+
+# class names
+names: ["wildfire"]
+
+augmentations:
+  mosaic: 0.5
+  mixup: 0.1
+  hsv_h: 0.015
+  fliplr: 0.3
